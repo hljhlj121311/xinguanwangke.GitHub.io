@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级百科 - 网课居家学习（新冠疫情期间）</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #202122;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #a2a9b1;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        .header-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+        }
+        .search-bar {
+            display: flex;
+        }
+        .search-bar input {
+            padding: 6px;
+            border: 1px solid #a2a9b1;
+            border-right: none;
+            border-radius: 2px 0 0 2px;
+            width: 200px;
+        }
+        .search-bar button {
+            padding: 6px 12px;
+            background-color: #36c;
+            color: white;
+            border: none;
+            border-radius: 0 2px 2px 0;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 3px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: none; /* 移除h3下方的线段 */
+        }
+        h4 {
+            font-size: 16px;
+            border-bottom: none;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .toc h2 {
+            margin-top: 0;
+            font-size: 16px;
+            border-bottom: none;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 15px;
+            margin: 5px 0;
+        }
+        .toc ul ul {
+            padding-left: 20px;
+        }
+        .toc a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        th, td {
+            border: 1px solid #a2a9b1;
+            padding: 6px;
+        }
+        th {
+            background-color: #eaecf0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .infobox {
+            float: right;
+            margin: 0 0 15px 15px;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .infobox h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .infobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .uninfobox {
+            float: left;
+            margin: 15px 15px 0 0;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .uninfobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            border-top: 1px solid #a2a9b1;
+            padding: 15px 0;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #72777d;
+        }
+        @media (max-width: 768px) {
+            .infobox {
+                float: none;
+                width: 100%;
+                margin: 15px 0;
+            }
+            .header-content {
+                flex-direction: column;
+            }
+            .search-bar {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面内容保持不变 -->
+    <div class="header">
+        <div class="header-content">
+            <a href="#" class="logo">12班班级百科</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>网课居家学习（疫情期间）</h1>
+        
+             
+        
+
+        <p>在2019冠状病毒病疫情爆发后，学校以及校外培训机构大多转移至线上继续运作。中华人民共和国政府在因为疫情封校停课后推广钉钉等云端补习应用来维持教学任务的继续运行。在新冠疫情期间，LNBS实施了居家网课学习方案，要求任课教师通过钉钉、腾讯会议等平台进行线上直播授课，以确保教学任务的顺利完成。网课期间是其截止目前对学生管控程度最弱的时期，使得整体班级风气一定下行，产生部分课堂违纪现象。课堂违纪现象慢慢演变为<a href="https://liuxy-github-io.pages.dev/">班级流行语</a>。主要包括<a href="https://maochong-github-io.pages.dev/">冒充事件</a>和游戏开麦事件。</p>
+
+        <div class="toc">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#section1">1. 主要事件</a>
+                    <ul>
+                        <li><a href="#section1-1">1.1 网课乱象</a></li>
+                        <li><a href="#section1-2">1.2 游戏开麦事件</a></li>
+                        <li><a href="#section1-3">1.3 冒充事件</a></li>
+                    </ul>
+                </li>
+                <li><a href="#section2">2. 影响</a>
+                    
+                </li>
+                
+              
+            </ul>
+        </div>
+
+        <h2 id="section1">主要事件</h2>
+        
+        <h3 id="section1-1">网课乱象</h3>
+        <p>在网课期间，一些学生会在课堂上偷偷违规，玩游戏、吃东西或聊天，甚至还有学生组织同学一起玩游戏或讨论闲聊。由于线上教学质量不高，加上学生在家容易分心，导致返校后的几次考试成绩不理想。</p>
+
+        <h3 id="section1-2">游戏开麦事件</h3>
+        <p>在网课英语课上，学生朱Y（学生）因违规玩游戏《和平精英》时忘记关闭麦克风，导致他与游戏内队友的对话被全班听到。事情暴露后，场面一度十分尴尬，朱Y随后也因此受到了批评。此后，许多同学纷纷模仿朱Y在玩游戏时的发言，这些话语逐渐成为<a href="https://liuxy-github-io.pages.dev/">班级流行语</a>。</p>
+        <h3 id="section1-3"><a href="https://maochong-github-io.pages.dev/">冒充事件</a></h3>
+        <p>第一次网课学习期间，学生秦P和曹B在网课会议通过修改昵称的方式，多次冒充同学田X发言，给田X带来了不良影响。<a href="https://penny-github-io-7sf.pages.dev/">彭</a>（教师）得知此事后，对两人进行了批评，并要求他们向田X道歉。被认为是<a href="https://fantian-github-io.pages.dev/">反田联盟</a>行动中的一部分。</p>
+
+        <h2 id="section2">影响</h2>
+        <p>在之后的几次线上教学中，学校吸取了此前的经验教训，加强了对学生的管控。钉钉被作为查收作业的主要平台，而腾讯会议则主要用于线上授课，以确保教学过程更加有序。</p>
+
+        
+                
+
+    <div class="footer">
+        <p>本页面最后编辑于2024年几月几日 (星期几) 不知道（UTC）。</p>
+        <p>本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
